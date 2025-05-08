@@ -3,7 +3,7 @@
 }
 
 body {
-  height: 100svh
+  height: 100svh;
   background-image: url(./IMG_0235.jpeg);
   overflow: hidden;
 }
