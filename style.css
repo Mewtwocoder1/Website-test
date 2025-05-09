@@ -2,16 +2,16 @@
   margin: 0;
 }
 
-body {
+/*body {
   display: flex;
   justify-content: center;
   align-items: center;
   background-size: cover;
   background-position: center;
   height: 100svh;
-}
+}*/
 
-#app {
+body {
   display: flex;
   justify-content: center;
   align-items: center;
