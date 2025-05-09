@@ -8,18 +8,20 @@ body {
   align-items: center;
   height: 100%;
   width: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
 }
 
 #app {
-  align-items: center;
-  cursor: pointer;
   display: flex;
-  height: 100vh;
   justify-content: center;
-  left: 0px;
-  position: fixed;
-  top: 0px;
+  align-items: center;
+  height: 100vh;
   width: 100vw;
+  position: fixed;
+  left: 0px;
+  top: 0px;
   background-image: url(./IMG_0235.jpeg);
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
