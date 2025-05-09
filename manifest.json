@@ -1,3 +1,5 @@
 {
-  "short_name": "Damien"
+  "short_name": "Damien",
+  "background_color": "#E85E00",
+  "display": "fullscreen"
 }
