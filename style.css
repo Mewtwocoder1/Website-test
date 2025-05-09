@@ -6,10 +6,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-attachment: fixed;
-  background-clip: border-box;
-  background-color: pink;
-  background-origin: padding-box;
   height: 100%;
   width: 100%;
 }
