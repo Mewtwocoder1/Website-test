@@ -4,9 +4,9 @@
 
 body {
   display: flex;
-  justify-content: content;
+  justify-content: center;
   align-items: center;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-clip: border-box;
   background-color: pink;
   background-origin: padding-box;
