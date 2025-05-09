@@ -8,7 +8,7 @@ body {
   align-items: center;
   background-attachment: scroll;
   background-clip: border-box;
-  background-image: url(./IMG_0235.jpeg);
+  background-color: pink;
   background-origin: padding-box;
   height: 100%;
   width: 100%;
@@ -24,6 +24,7 @@ body {
   position: fixed;
   top: 0px;
   width: 100vw;
+  background-image: url(./IMG_0235.jpeg);
   -webkit-tap-highlight-color: transparent;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
