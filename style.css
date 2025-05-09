@@ -3,11 +3,12 @@
 }
 
 body {
+  display: flex;
+  justify-content: content;
   align-items: center;
   background-attachment: scroll;
   background-clip: border-box;
-  background-color: rgb(0 0 0);
-  background-image: none;
+  background-color: rgb(50 0 0);
   background-origin: padding-box;
   background-position-x: 0%;
   background-position-y: 0%;
@@ -16,8 +17,6 @@ body {
   height: 100%;
   position: relative;
   width: 100%;
-  display: flex;
-  justify-content: content;
 }
 
 #app {
