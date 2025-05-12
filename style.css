@@ -2,7 +2,7 @@ body {
   background-image: url(./IMG_0235.jpeg);
   background-size: cover;
   background-position: center;
-  height: calc(100vh-1px);
+  height: calc(100vh - 1px);
   width: 100vw;
   margin: 0;
   position: fixed;
