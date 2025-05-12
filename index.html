@@ -15,5 +15,21 @@
     <div id="app">
       <h1>Test</h1>
     </div>
+    <script>
+      function getWidth() {
+      if (screen.orientation.type.includes('landscape')) {
+        return Math.max(screen.height, screen.width);
+      } else {
+        return screen.width;
+      }}
+      
+      function getHeight() {
+      if (screen.orientation.type.includes('landscape')) {
+        return Math.min(screen.height, screen.width);
+      } else {
+        return screen.height;
+      }}
+      document.querySelector('meta[name="viewport"]').setAttribute("content", `viewport-fit=cover, user-scalable=no, maximum-scale=1, height=${getHeight()}, width=${getWidth()}`);
+    </script>
   </body>
 </html>
